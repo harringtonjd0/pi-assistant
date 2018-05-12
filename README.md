@@ -18,7 +18,7 @@ git clone https://harringtonjd0/pi-assistant
 cd pi-assistant && chmod u+x setup.sh && ./setup.sh
 ```  
 3. Start service  
-``
+```
 assistant start
 ```  
 
