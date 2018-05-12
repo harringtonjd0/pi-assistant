@@ -5,9 +5,9 @@ A Flask web application to serve as a personal assistant. Currently manages a re
 ## Usage
 
 1. Clone git repo  
-	`git clone https://harringtonjd0/pi-assistant`  
+&nbsp;&nbsp;&nbsp;`git clone https://harringtonjd0/pi-assistant`  
 2. Run setup script  
-	`cd pi-assistant && chmod u+x setup.sh && ./setup.sh`  
+&nbsp;&nbsp;&nbsp;`cd pi-assistant && chmod u+x setup.sh && ./setup.sh`  
 3. Start service  
-	`assistant start`  
+&nbsp;&nbsp;&nbsp;`assistant start`  
 
