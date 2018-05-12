@@ -14,7 +14,11 @@ Serves a web page on port 1776.
 git clone https://harringtonjd0/pi-assistant
 ```  
 2. Run setup script  
-&nbsp;&nbsp;&nbsp;```cd pi-assistant && chmod u+x setup.sh && ./setup.sh```  
+```
+cd pi-assistant && chmod u+x setup.sh && ./setup.sh
+```  
 3. Start service  
-&nbsp;&nbsp;&nbsp;```assistant start```  
+``
+assistant start
+```  
 
