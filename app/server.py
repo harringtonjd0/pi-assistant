@@ -66,7 +66,11 @@ def execute_reminder(cmd):
             # Combine reminder string into one list element for subprocess.run
             cmd[3] = ' '.join([cmd[x] for x in range(3, len(cmd))])
             cmd = cmd[:4]
-        
+
+        # Check for removing entry
+        if len(cmd) > 2 and any(x == cmd[2] for x in {'remove', 'delete', 'del', 'rem'}):
+            cmd[2] = '-d'
+
         # Execute command
         output = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         
