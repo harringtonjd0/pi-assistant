@@ -2,7 +2,7 @@
 
 A Flask web application to serve as a personal assistant. 
 
-Currently depends on a reminder service that can be managed through local commands through 'reminders.py' or through text messages, courtesty of Twilio and Serveo.net.
+Currently depends on a reminder service that can be managed with local commands through 'reminders.py' or through text messages, courtesty of Twilio and Serveo.net.
 
 Serves a web page on port 1776.
 
