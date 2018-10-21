@@ -1,6 +1,6 @@
 # Raspberry Pi Personal Assistant
 
-A Flask web application to serve as a personal assistant. 
+A Flask web application to serve as a personal assistant. Work in progress, new features to be added.
 
 Currently depends on a reminder service that can be managed with local commands through 'reminders.py' or through text messages, courtesty of Twilio and Serveo.net.
 
