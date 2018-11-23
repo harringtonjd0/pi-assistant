@@ -11,11 +11,11 @@ Serves a web page on port 1776.
 
 1. Clone git repo  
 ```
-git clone https://harringtonjd0/assistant
+git clone https://harringtonjd0/text-assistant
 ```  
 2. Run setup script  
 ```
-cd assistant && ./setup.sh
+cd text-assistant && ./setup.sh
 ```  
 3. Start service  
 ```
