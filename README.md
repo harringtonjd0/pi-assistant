@@ -1,6 +1,6 @@
-# Raspberry Pi Personal Assistant
+# Text Assistant
 
-A Flask web application to serve as a personal assistant. Work in progress, new features to be added.
+A Flask web application to serve as an assistant service. Work in progress, new features to be added.
 
 Currently depends on a reminder service that can be managed with local commands through 'reminders.py' or through text messages, courtesty of Twilio and Serveo.net.
 
@@ -11,11 +11,11 @@ Serves a web page on port 1776.
 
 1. Clone git repo  
 ```
-git clone https://harringtonjd0/pi-assistant
+git clone https://harringtonjd0/assistant
 ```  
 2. Run setup script  
 ```
-cd pi-assistant && ./setup.sh
+cd assistant && ./setup.sh
 ```  
 3. Start service  
 ```
